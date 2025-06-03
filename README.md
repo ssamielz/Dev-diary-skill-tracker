@@ -26,11 +26,14 @@ A command-line Python application that helps you track your programming skill de
    cd Dev-diary-skill-tracker
 
 2. **Setup virtual env**
+    ```bash
     pipenv install
     pipenv shell
 
 3. **Initialize db**
+    ```bash
     python db/setup_db.py
 
 4. **Run the app**
+    ```bash
     python cli/main.py
